@@ -1,6 +1,6 @@
 [PCF8591]
 enabled=true
-module=cayenne-pcf8591
+module=cayenne_pcf8591
 class=PCF8591
 read=read
 write=write
@@ -8,9 +8,9 @@ write=write
 [PCF8591_OUT]
 enabled=true
 channel=0
-module=cayenne-pcf8591
+module=cayenne_pcf8591
 class=AnalogOutput
-init_args={"plugin_id":"cayenne-pcf8591:PCF8591"}
+init_args={"plugin_id":"cayenne_pcf8591:PCF8591"}
 read=read
 read_args={"channel":$channel, "value_type":"float"}
 write=write
